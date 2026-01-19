@@ -1,44 +1,62 @@
-🇰🇷 Kori: Global K-Pop Community & Chat
-Kori는 전 세계 팬들이 K-Pop, K-Drama를 매개로 소통하고 언어를 배우는 글로벌 커뮤니티 서비스입니다. 이 리포지토리는 Kori의 실시간 채팅, 콘텐츠 관리 및 AI 번역을 지원하는 백엔드 서버를 담고 있습니다.
-[![Google Play](https://img.shields.io/badge/Google_Play-Kori-green?logo=googleplay)](https://play.google.com/store/apps/details?id=com.SWYP.kori)
-[![App Store](https://img.shields.io/badge/App_Store-Kori-blue?logo=apple)](https://apps.apple.com/be/app/kori-korea-foreigners-meet/id6752611613)
+# 🇰🇷 Kori: Global K-Culture Community & Chat
+> **외국인들이 한국 문화를 배우고 한국인 친구를 사귈 수 있는 글로벌 커뮤니티 서비스**
+> 2025년 8월 출시 이후 100여 개국 유저들이 활동 중이며, 약 3,000명의 유저가 함께하고 있습니다.
 
-📋 목차
-핵심 기능
+[![Google Play](https://img.shields.io/badge/Google_Play-Kori-green?style=for-the-badge&logo=googleplay)](https://play.google.com/store/apps/details?id=com.SWYP.kori)
+[![App Store](https://img.shields.io/badge/App_Store-Kori-blue?style=for-the-badge&logo=apple)](https://apps.apple.com/be/app/kori-korea-foreigners-meet/id6752611613)
 
-기술 스택
+---
 
-시스템 아키텍처
+## 📈 Service Performance (서비스 성과)
+* **운영 기간:** 2025. 08 ~ 현재
+* **사용자 지표:** 누적 다운로드 **5,000+**, 총 가입 유저 **3,000+**, 평균 **DAU 100+**
+* **글로벌 지표:** 전 세계 약 **100여 개국** 유저 유입 및 활동 중
+* **팀 구성:** BE(3명), FE(3명), 디자이너(2명)
 
-API 명세
+---
 
-프로젝트 설정
+## 🛠 기술 스택 (Tech Stack)
 
-✨ 핵심 기능 (Key Features)
-Kori의 주요 비즈니스 로직을 처리하는 백엔드 기능입니다.
+### Language & Framework
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"> <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/Spring%20Batch-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white">
 
-글로벌 채팅 시스템: WebSocket/Socket.io를 활용한 실시간 팬 커뮤니티 채팅 및 1:1 대화 지원
+### Database & Migration
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"> <img src="https://img.shields.io/badge/Flyway-CC0202?style=for-the-badge&logo=flyway&logoColor=white"> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white">
 
-AI 번역 통합: 글로벌 유저 간 원활한 소통을 위한 채팅 실시간 번역 API 연동
+### Infrastructure & Monitoring
+<img src="https://img.shields.io/badge/Naver%20Cloud-03C75A?style=for-the-badge&logo=naver&logoColor=white"> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"> <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"> <img src="https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white"> <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white">
 
-커뮤니티 및 포스트: K-Pop/K-Drama 관련 게시글 생성, 좋아요, 댓글 기능 및 페이징 처리
+---
 
-사용자 인증 및 프로필: JWT 기반 보안 인증 및 글로벌 유저 성향에 맞춘 프로필 관리
+## ✨ 주요 기능 (Key Features)
 
-푸시 알림: 관심 있는 아이돌의 새 소식이나 채팅 알람 발송
+### 💬 실시간 글로벌 채팅
+- **WebSocket 기반 채팅:** 실시간 1:1 대화 및 커뮤니티 채팅 환경 구축
+- **Firebase Cloud Messaging (FCM):** 채팅 알림 및 서비스 공지 푸시 발송
 
-🛠 기술 스택 (Tech Stack)
+### 📝 커뮤니티 관리 및 자동화
+- **K-Culture Feed:** 게시글 CRUD, 좋아요, 댓글 기능 구현
+- **Spring Batch:** 대량 알림 전송, 랭킹 정산, 휴면 유저 전환 등 백그라운드 작업 자동화
 
+### 🔐 인프라 및 보안
+- **Database 관리:** Flyway를 이용한 운영 DB 스키마 형상 관리 및 데이터 정합성 유지
+- **부하 테스트 (k6):** 실제 서비스 운영 전 트래픽 한계 측정 및 병목 구간 개선
+- **실시간 모니터링:** Prometheus와 Grafana를 연동하여 서버 리소스 및 API 상태 실시간 관제
 
-Language & Framework: Node.js (NestJS) / Java (Spring Boot)
+---
 
-Database: PostgreSQL / MongoDB (채팅 로그) / Redis (캐싱)
+## 🏗 시스템 아키텍처 (System Architecture)
 
-Infra: AWS EC2, S3, RDS, Docker
-
-Tools: Swagger (API), GitHub Actions (CI/CD)
-
-🏗 시스템 아키텍처 (System Architecture)
-
-
-📖 API 명세 (API Documentation)
+```mermaid
+graph TD
+    User((Global User)) --> NCP_LB[Naver Cloud Load Balancer]
+    NCP_LB --> AppServer[Spring Boot App Container]
+    AppServer --> DB[(PostgreSQL)]
+    AppServer --> Cache[(Redis)]
+    AppServer --> Batch[Spring Batch Job]
+    AppServer --> FCM[Firebase / Push Notification]
+    
+    subgraph Monitoring
+        AppServer --> Prometheus
+        Prometheus --> Grafana
+    end
