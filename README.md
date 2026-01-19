@@ -14,8 +14,7 @@
 
 
 ## 🏗 시스템 아키텍처 (System Architecture)
-![Group 4.png](attachment:d353f834-e747-44e4-918e-e759e7f4dae4:3d644aeb-1446-4e63-984b-441d13e7d68b.png)
-
+<img width="2000" height="1166" alt="image" src="https://github.com/user-attachments/assets/eeffe72f-8a8c-44f0-94d3-bdef79e9ad61" />
 
 
 ## ✨ 주요 기능 (Key Features)
