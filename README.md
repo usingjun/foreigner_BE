@@ -5,7 +5,6 @@
 [![Google Play](https://img.shields.io/badge/Google_Play-Kori-green?style=for-the-badge&logo=googleplay)](https://play.google.com/store/apps/details?id=com.SWYP.kori)
 [![App Store](https://img.shields.io/badge/App_Store-Kori-blue?style=for-the-badge&logo=apple)](https://apps.apple.com/be/app/kori-korea-foreigners-meet/id6752611613)
 
----
 
 ## 📈 Service Performance (서비스 성과)
 * **운영 기간:** 2025. 08 ~ 현재
@@ -13,20 +12,11 @@
 * **글로벌 지표:** 전 세계 약 **100여 개국** 유저 유입 및 활동 중
 * **팀 구성:** BE(3명), FE(3명), 디자이너(2명)
 
----
 
-## 🛠 기술 스택 (Tech Stack)
+## 🏗 시스템 아키텍처 (System Architecture)
+![Group 4.png](attachment:d353f834-e747-44e4-918e-e759e7f4dae4:3d644aeb-1446-4e63-984b-441d13e7d68b.png)
 
-### Language & Framework
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"> <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/Spring%20Batch-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white">
 
-### Database & Migration
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"> <img src="https://img.shields.io/badge/Flyway-CC0202?style=for-the-badge&logo=flyway&logoColor=white"> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white">
-
-### Infrastructure & Monitoring
-<img src="https://img.shields.io/badge/Naver%20Cloud-03C75A?style=for-the-badge&logo=naver&logoColor=white"> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"> <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"> <img src="https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white"> <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white">
-
----
 
 ## ✨ 주요 기능 (Key Features)
 
@@ -43,20 +33,13 @@
 - **부하 테스트 (k6):** 실제 서비스 운영 전 트래픽 한계 측정 및 병목 구간 개선
 - **실시간 모니터링:** Prometheus와 Grafana를 연동하여 서버 리소스 및 API 상태 실시간 관제
 
----
+## 🛠 기술 스택 (Tech Stack)
 
-## 🏗 시스템 아키텍처 (System Architecture)
+### Language & Framework
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"> <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/Spring%20Batch-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white">
 
-```mermaid
-graph TD
-    User((Global User)) --> NCP_LB[Naver Cloud Load Balancer]
-    NCP_LB --> AppServer[Spring Boot App Container]
-    AppServer --> DB[(PostgreSQL)]
-    AppServer --> Cache[(Redis)]
-    AppServer --> Batch[Spring Batch Job]
-    AppServer --> FCM[Firebase / Push Notification]
-    
-    subgraph Monitoring
-        AppServer --> Prometheus
-        Prometheus --> Grafana
-    end
+### Database & Migration
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"> <img src="https://img.shields.io/badge/Flyway-CC0202?style=for-the-badge&logo=flyway&logoColor=white"> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white">
+
+### Infrastructure & Monitoring
+<img src="https://img.shields.io/badge/Naver%20Cloud-03C75A?style=for-the-badge&logo=naver&logoColor=white"> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"> <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"> <img src="https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white"> <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white">
