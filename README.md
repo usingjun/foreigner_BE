@@ -77,5 +77,5 @@
 <img src="https://img.shields.io/badge/Naver%20Cloud-03C75A?style=for-the-badge&logo=naver&logoColor=white"> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"> <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"> <img src="https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white"> <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white">
 
 ## ERD
-![ERD Image]<img width="3640" height="2182" alt="kori-foreigner" src="https://github.com/user-attachments/assets/7f6b890f-a675-4d58-b1a2-cb9d81be1e8c" />
+<img width="3640" height="2182" alt="kori-foreigner" src="https://github.com/user-attachments/assets/7f6b890f-a675-4d58-b1a2-cb9d81be1e8c" />
 
