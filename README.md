@@ -13,16 +13,6 @@
 * **팀 구성:** BE(3명), FE(3명), 디자이너(2명)
 
 
-## 🏗 시스템 아키텍처 (System Architecture)
-- MSA 아키텍처 구성
-![Frame 2](https://github.com/user-attachments/assets/fbc49064-b17f-416f-823a-fd2ba040e15d)
-
-- 이후 Monolithic 아키텍처로 재구성
-  <img width="3121" height="2232" alt="Group 4" src="https://github.com/user-attachments/assets/e548aec0-0244-4e53-bf1a-75ec84afbd44" />
-
-
----
-
 ## ✨ 주요 기능 (Key Features)
 
 ### 1. 🇰🇷 K-컬처 & 유저 참여 (K-Culture Hub)
@@ -62,6 +52,15 @@
 
 * **상세 알림 제어:** 채팅, 댓글 수신, 팔로우 요청, 새 멤버 가입 등 다양한 상황별 푸시 알림을 사용자가 원하는 대로 각각 켜거나 끌 수 있습니다.
 * **온보딩 & 계정:** 구글과 애플 계정을 이용한 소셜 로그인을 지원하며 프로필 편집 기능과 더불어 안전한 계정 탈퇴 프로세스를 구현했습니다.
+
+
+## 🏗 시스템 아키텍처 (System Architecture)
+- MSA 아키텍처 구성
+<img src="https://github.com/user-attachments/assets/fbc49064-b17f-416f-823a-fd2ba040e15d" alt="Frame 2" width="700" />
+
+- 이후 Monolithic 아키텍처로 재구성
+<img src="https://github.com/user-attachments/assets/e548aec0-0244-4e53-bf1a-75ec84afbd44" alt="Group 4" width="700" />
+
 
 ## 🛠 기술 스택 (Tech Stack)
 
