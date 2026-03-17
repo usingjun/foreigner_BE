@@ -1,14 +1,14 @@
 # 🇰🇷 Kori: Global K-Culture Community & Chat
 > **외국인들이 한국 문화를 배우고 한국인 친구를 사귈 수 있는 글로벌 커뮤니티 서비스**
-> 2025년 8월 출시 이후 100여 개국 유저들이 활동 중이며, 약 3,000명의 유저가 함께하고 있습니다.
+> 2025년 8월 출시 이후 100여 개국 유저들이 활동 중이며, 약 3,500명의 유저가 함께하고 있습니다.
 
 [![Google Play](https://img.shields.io/badge/Google_Play-Kori-green?style=for-the-badge&logo=googleplay)](https://play.google.com/store/apps/details?id=com.SWYP.kori)
 [![App Store](https://img.shields.io/badge/App_Store-Kori-blue?style=for-the-badge&logo=apple)](https://apps.apple.com/be/app/kori-korea-foreigners-meet/id6752611613)
 
 
 ## 📈 Service Performance (서비스 성과)
-* **운영 기간:** 2025. 08 ~ 현재
-* **사용자 지표:** 누적 다운로드 **5,000+**, 총 가입 유저 **3,000+**, 평균 **DAU 100+**
+* **운영 기간:** 2025. 08 ~ 2026.02
+* **사용자 지표:** 누적 다운로드 **7,000+**, 총 가입 유저 **3,500+**, 평균 **DAU 100+**
 * **글로벌 지표:** 전 세계 약 **100여 개국** 유저 유입 및 활동 중
 * **팀 구성:** BE(3명), FE(3명), 디자이너(2명)
 
